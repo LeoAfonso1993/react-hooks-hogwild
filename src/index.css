@@ -65,7 +65,7 @@ ul {
 .normalText ul {
   font-family: Georgia, serif;
   font-size: .75em;
-  text-align: left;
+  
 }
 
 .subtleText {
@@ -84,12 +84,13 @@ ul {
   background-repeat: no-repeat;
   background-position: center 90%;
   float: left;
-  margin: 2%;
-  padding: 1%;
+  margin: 30%;
+  padding: 10%;
   outline: #3B0B0B dotted thick;
   transition: 0.75s;
   opacity: 1;
 }
+
 
 .minBackgroundSneak {
   position: absolute;
@@ -138,6 +139,10 @@ ul {
 .footer {
   padding: 1%;
   clear: both;
+}
+
+.hide {
+  visibility: hidden;
 }
 
 
